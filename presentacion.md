@@ -34,10 +34,10 @@ Blanqueamiento cultural y mestizaje.
     Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación.
 
 > Trabajo históricamente no salarial.
-* Encomienda: proto-esclavitud de las comunidades indígenas -Mapuche-. Botín de guerra gracias a la empresa de conquista hasta la ciudad de Valdivia y la isla de Chiloe.
-* Peonaje: Era una protoesclavitud, una relación social de producción en que vivía un grupo mayoritario masculino del pueblo mestizo en la colonia y parte de la república. Se trata de una relación en que se ofrece fuerza de trabajo en periodos de alta producción en las haciendas, a cambio de una estancia con alimentación. Como también el uso de trabajo forzados a la población penal. En especial con el "vagabundage".     
-* Inquilinaje: proyecto de relación patronal entre la oligarquía terrateniente y un conjunto de pueblo sometido. Se basa en la seda de una parcela o -chacra-, de grandes concentraciones en haciendas donde el fruto de su trabajo es para la subsistencia y sede parte del excedente con el patrón. Principalmente fue utilizado como proyecto de familia para el pueblo mestizo. Ya que la familia podía ver obligada ser comprendía como una sola unidad productiva para la clase patronal.     
-* Rancherías: Proyecto de ocupación de la periferia de las ciudades, otorgados principalmente por el cabildo o municipio a las madres solteras del bajo pueblo. Compromiso cristiano-civilizatorio con el pueblo mestizo.
+>>* Encomienda: proto-esclavitud de las comunidades indígenas -Mapuche-. Botín de guerra gracias a la empresa de conquista hasta la ciudad de Valdivia y la isla de Chiloe.
+>>* Peonaje: Era una protoesclavitud, una relación social de producción en que vivía un grupo mayoritario masculino del pueblo mestizo en la colonia y parte de la república. Se trata de una relación en que se ofrece fuerza de trabajo en periodos de alta producción en las haciendas, a cambio de una estancia con alimentación. Como también el uso de trabajo forzados a la población penal. En especial con el "vagabundage".     
+>>* Inquilinaje: proyecto de relación patronal entre la oligarquía terrateniente y un conjunto de pueblo sometido. Se basa en la seda de una parcela o -chacra-, de grandes concentraciones en haciendas donde el fruto de su trabajo es para la subsistencia y sede parte del excedente con el patrón. Principalmente fue utilizado como proyecto de familia para el pueblo mestizo. Ya que la familia podía ver obligada ser comprendía como una sola unidad productiva para la clase patronal.     
+>>* Rancherías: Proyecto de ocupación de la periferia de las ciudades, otorgados principalmente por el cabildo o municipio a las madres solteras del bajo pueblo. Compromiso cristiano-civilizatorio con el pueblo mestizo.
 
 # Presentación de caso -ejemplo- Biobío.
 
