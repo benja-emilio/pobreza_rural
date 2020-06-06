@@ -1,8 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
+
 # La pobreza campesina latinoamericana e indígena de Abya Yala.
 ## Modulo 3
 ### Benjamín Jerez Maldonado
@@ -32,13 +28,13 @@ Blanqueamiento cultural y mestizaje.
 **Falta de relaciones salariales**
 
 > Trabajo campesino
-  Proyecto de reforma agraria y campenización el bajo pueblo incompleto por el golpe cívico-militar
+    Proyecto de reforma agraria y campenización el bajo pueblo incompleto por el golpe cívico-militar
 
 > Trabajo de comunidades indígenas
-  Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación.
+    Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación.
 
 > Trabajo históricamente no salarial.
-  * Encomienda = proto-esclavitud de las comunidades indígenas -Mapuche-. Botín de guerra gracias a la empresa de conquista hasta la ciudad de
+   * Encomienda = proto-esclavitud de las comunidades indígenas -Mapuche-. Botín de guerra gracias a la empresa de conquista hasta la ciudad de
   Valdivia y la isla de Chiloe.
   * Peonaje = Era una protoesclavitud, una relación social de producción en que vivía un grupo mayoritario masculino del pueblo mestizo en la colonia
   y parte de la república. Se trata de una relación en que se ofrece fuerza de trabajo en periodos de alta producción en las haciendas, a cambio de
