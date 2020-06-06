@@ -28,11 +28,11 @@ Blanqueamiento cultural y mestizaje.
 **Falta de relaciones salariales**
 
 > Trabajo campesino
-    Proyecto de reforma agraria y campenización el bajo pueblo incompleto por el golpe cívico-militar
+>> Proyecto de reforma agraria y campenización el bajo pueblo incompleto por el golpe cívico-militar
 
 > Trabajo de comunidades indígenas
-    Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación.
-
+>> Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación. A trevez de la CONADI, el uso indiscriminado de la ley "antiterrorista" y multiples casos de montaje policial. 
+  
 > Trabajo históricamente no salarial.
 >>* Encomienda: proto-esclavitud de las comunidades indígenas -Mapuche-. Botín de guerra gracias a la empresa de conquista hasta la ciudad de Valdivia y la isla de Chiloe.
 >>* Peonaje: Era una protoesclavitud, una relación social de producción en que vivía un grupo mayoritario masculino del pueblo mestizo en la colonia y parte de la república. Se trata de una relación en que se ofrece fuerza de trabajo en periodos de alta producción en las haciendas, a cambio de una estancia con alimentación. Como también el uso de trabajo forzados a la población penal. En especial con el "vagabundage".     
