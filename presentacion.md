@@ -1,6 +1,5 @@
 
 # La pobreza campesina latinoamericana e indígena de Abya Yala.
-## Modulo 3
 ### Benjamín Jerez Maldonado
 ---
 # marco teórico
