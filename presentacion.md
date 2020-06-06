@@ -7,7 +7,7 @@
 
 ## Aportes de Chayanov.
 
-- "para cada uno de los tipos económicos que en parte ya hemos descrito debe crearse un sistema económico que corresponda a sus rasgos peculiares"
+- **"... para cada uno de los tipos económicos que en parte ya hemos descrito debe crearse un sistema económico que corresponda a sus rasgos peculiares"**
 
 - Economías capitalistas y naturales.
 
