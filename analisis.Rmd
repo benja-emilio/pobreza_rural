@@ -1,0 +1,197 @@
+---
+title: "Analisis de datos en entidades rurales de la region del Biobio"
+author: "Benjamín Jerez"
+date: "07-06-2020"
+output: html_document
+---
+
+# [Analisis de base de datos del INE.](https://www.arcgis.com/apps/webappviewer/index.html?id=bc3cfbd4feec49699c11e813ae9a629f)
+
+Para este analisis se bajaron los datos las entidades rurles definidas por el instituto nacional de estadistica para la aplicación del censo 2017. 
+
+Primero necesitamos importar las bases previamente descargadas. 
+
+```{r}
+setwd('/home/benja/u/quinto_año/primer_semestre/rural/presentacion/base_ine')
+library(readr)
+arauco <- read_delim("arauco.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
+biobio <- read_delim("biobio.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
+concepcion <- read_delim("concepcion.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
+region_biobio<-rbind(arauco, biobio, concepcion)
+
+```
+
+Podemos darnos cuentas que todas las variables tienen misma relacion con aquello que estan midiendo. Difieren en la provincia, ya que le hemos pedido especificamente una segmentacion de los datos segun la provincia en tres grandes conjuntos; Arauco, Biobio y Concepción. De esta manera aseguramos tener una unidad mas pequeña para asegurar aun mas la representatividad y luego unirlas todas en una sola gran base. Si le damos lectura a las variables podemos darnos cuentas que tenemos variables geograficas, demograficas, y de vivienda. Que nos sera util para analizar la pobreza de los habitantes en sectores rurales, asi como su perfilación demografica. 
+
+```{r}
+names(region_biobio)
+```
+
+Para proseguir con el analisis debemos transformar variables que por defecto el programa identifico como caracter, sin embargo, son numericas. Ya que Indeterminado debe ser modificado a un NA, que es como el programa indentifica los casos perdidos. 
+
+```{r}
+region_biobio$`Total de Mujeres`<-as.numeric(region_biobio$`Total de Mujeres`)
+region_biobio$`Total de Hombres`<-as.numeric(region_biobio$`Total de Hombres`)
+region_biobio$`Total de personas de 0 a 5 años`<-as.numeric(region_biobio$`Total de personas de 0 a 5 años`)
+region_biobio$`Total de personas de 6 a 14 años`<-as.numeric(region_biobio$`Total de personas de 6 a 14 años`)
+region_biobio$`Total de personas de 15 a 64 años`<-as.numeric(region_biobio$`Total de personas de 15 a 64 años`)
+region_biobio$`Total de personas de 65 y más años`<-as.numeric(region_biobio$`Total de personas de 65 y más años`)
+region_biobio$`Total personas migrantes que residen habitualmente en el territorio nacional`<-as.numeric(region_biobio$`Total personas migrantes que residen habitualmente en el territorio nacional`)
+region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`<-as.numeric(region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`)
+```
+
+Ademas corregimos las variables geograficas categoricas por factor
+
+```{r}
+region_biobio$REGION<-as.factor(region_biobio$REGION)
+region_biobio$PROVINCIA<-as.factor(region_biobio$PROVINCIA)
+region_biobio$`NOMBRE COMUNA`<-as.factor(region_biobio$`NOMBRE COMUNA`)
+region_biobio$LOCALIDAD<-as.factor(region_biobio$LOCALIDAD)
+region_biobio$ENTIDAD<-as.factor(region_biobio$ENTIDAD)
+region_biobio$CATEGORIA<-as.factor(region_biobio$CATEGORIA)
+```
+
+# Datos 
+
+## Distribucion por Provincia, Comuna. 
+
+```{r}
+table(region_biobio$PROVINCIA)
+table(region_biobio$`NOMBRE COMUNA`)
+prop.table(table(region_biobio$PROVINCIA))*100
+prop.table(table(region_biobio$`NOMBRE COMUNA`))*100
+tabla_frecuencia_comuna<-data.frame(prop.table(table(region_biobio$`NOMBRE COMUNA`))*100)
+summary(tabla_frecuencia_comuna)
+print(tabla_frecuencia_comuna[25,])
+print(tabla_frecuencia_comuna[17,])
+```
+Como podemos ver, la distribucion de las entidades rurales por provincia le correspone el 53,08% a la provicia del Biobío, un 25,48% a la de Concepción y un 21,43% a la provincia de Arauco. Si comparamos comunas, Los Angeles en la provicia del Biobío tiene el mayor porcentaje un 16,79%. Mientras que en la provincia de Concepción, la comuna de San Predro de la Paz tiene un 0.13% 
+
+## Categorias de las entidades rurales. 
+
+```{r}
+table(region_biobio$CATEGORIA)
+prop.table(table(region_biobio$CATEGORIA))*100
+tabla_frecuencia_categoria<-data.frame(prop.table(table(region_biobio$CATEGORIA))*100)
+summary(tabla_frecuencia_categoria)
+View(tabla_frecuencia_categoria[10,])
+View(tabla_frecuencia_categoria[3,])
+```
+
+En el caso de las categorias de las entidades rurales, encontramos que la mayor frecuencia de tipo parcela -Hijuela siendo el 51,37%. Por contastre, los campamentos son 0.13% de las entidades rurales. 
+
+## Datos demoraficos
+
+### Población 
+```{r}
+sum(region_biobio$`Número total de personas`, na.rm = T)
+sum(region_biobio$`Total de Hombres`, na.rm = T)
+sum(region_biobio$`Total de Mujeres`, na.rm = T)
+summary(region_biobio$`Número total de personas`)
+summary(region_biobio$`Total de Hombres`)
+summary(region_biobio$`Total de Mujeres`)
+by(region_biobio$`Número total de personas`, region_biobio$`NOMBRE COMUNA`, FUN = summary)
+by(region_biobio$`Total de Hombres`, region_biobio$`NOMBRE COMUNA`, FUN = summary)
+by(region_biobio$`Total de Mujeres`, region_biobio$`NOMBRE COMUNA`, FUN = summary)
+by(region_biobio$`Número total de personas`, region_biobio$CATEGORIA, FUN = summary)
+by(region_biobio$`Total de Hombres`, region_biobio$CATEGORIA, FUN = summary)
+by(region_biobio$`Total de Mujeres`, region_biobio$CATEGORIA, FUN = summary)
+```
+
+### Migración
+
+```{r}
+sum(region_biobio$`Total personas migrantes que residen habitualmente en el territorio nacional`, na.rm = T)
+summary(region_biobio$`Total personas migrantes que residen habitualmente en el territorio nacional`)
+table(region_biobio$`Total personas migrantes que residen habitualmente en el territorio nacional`)
+```
+
+### Poblacion Indigena.
+
+```{r}
+library(dplyr)
+sum(region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`, na.rm = T)
+summary(region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`)
+table(region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`)
+indigenas<-filter(region_biobio, region_biobio$`Total personas que se consideran pertenecientes a algún pueblo indígena u originario`>=4)
+prop.table(table(indigenas$`NOMBRE COMUNA`))*100
+prop.table(table(indigenas$CATEGORIA))*100
+sum(indigenas$`Total de Hombres`, na.rm = T)
+sum(indigenas$`Total de Mujeres`, na.rm = T)
+
+```
+
+La comuna que tiene mayor poblacion que se siente perteneciente a un pueblo indigena es Lo Angeles con un 20,79%, . Por otro el 44,18% vive en parcelas, 16,92% en una entidad indeterminada, 15,15% en caserios y solo 12,98$ comunidades.  
+
+### Extra
+
+Es singular que existan entidades que no esten pobladas. Hablamos de 132 entidades que estan repartidas en las siguientes comunas. 
+
+```{r}
+library(dplyr)
+sin_poblacion<-filter(region_biobio, region_biobio$`Número total de personas`==0)
+table(sin_poblacion$NOMBRE.COMUNA)
+table(sin_poblacion$CATEGORIA)
+```
+
+## Datos sobre vivienda
+
+### Viviendas y hogares.
+
+Si entendemos las viviendas como la unidad donde un individuo o grupo humano pude vivir, damos cuenta que no se esta ocupando en su totalidad este recurso, ya que del total de 78739 viviendas solo estan ocupadas y con moradores 59072, lo cual nos deja 19667 viviendas desocupas o sin moradores. Sin embargo, tenemos una catidad de 59477 hogares, evidenciamos que existen 405 hogares que no tienen un vivienda propia. 
+
+```{r}
+total_viviendas<-sum(region_biobio$`Total viviendas`)
+print(total_viviendas)
+summary(region_biobio$`Total viviendas`)
+
+viviendas_ocupadas<-sum(region_biobio$`Total viviendas ocupadas con moradores presentes`)
+print(viviendas_ocupadas)
+summary(region_biobio$`Total viviendas ocupadas con moradores presentes`)
+
+total_hogares<-sum(region_biobio$`Cantidad de hogares`)
+print(total_hogares)
+summary(region_biobio$`Cantidad de hogares`)
+
+viviendas_desocupadas<-c(total_viviendas-viviendas_ocupadas)
+print(viviendas_desocupadas)
+
+sin_vivienda<-c(total_hogares-viviendas_ocupadas)
+print(sin_vivienda) 
+```
+
+### Viviendas y hogares por comuna y categoria de entidad. 
+
+```{r}
+print("total de viviendas por comuna")
+by(region_biobio$`Total viviendas`, region_biobio$`NOMBRE COMUNA`, sum)
+```
+
+```{r}
+print("total de vivienad por categoria")
+by(region_biobio$`Total viviendas`, region_biobio$CATEGORIA, sum)
+```
+
+```{r}
+print("total de viviendas ocupadas por comuna")
+by(region_biobio$`Total viviendas ocupadas con moradores presentes`, region_biobio$`NOMBRE COMUNA`, sum)
+```
+
+```{r}
+print("total de viviedas ocupadas por categoria")
+by(region_biobio$`Total viviendas ocupadas con moradores presentes`, region_biobio$CATEGORIA, sum)
+```
+
+```{r}
+print("cantidad de hogares por comuna")
+by(region_biobio$`Cantidad de hogares`, region_biobio$`NOMBRE COMUNA`, sum)
+```
+
+```{r}
+print("cantidad de hogares por categorias")
+by(region_biobio$`Cantidad de hogares`, region_biobio$CATEGORIA, sum)
+```
+
+
+
+
