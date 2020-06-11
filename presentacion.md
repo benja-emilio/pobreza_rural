@@ -26,9 +26,9 @@ La economía natural es tal en la que el ser es capaz de satisfacer sus necesida
 
 ### Grado de explotación y equilibrio interno.
 
-> *el grado de explotación lo determina un equilibrio peculiar entre satisfacción de la demanda familiar y fatiga del trabajo.*
+> *"el grado de explotación lo determina un equilibrio peculiar entre satisfacción de la demanda familiar y fatiga del trabajo."*
 
-> *Es evidente que con el incremento de producción obtenido por un trabajo arduo, la valoración subjetiva del significado que para el consumo tiene cada nuevo rublo ganado decrece; pero la fatiga de trabajar para ganarlo, que requerirá una cantidad cada vez mayor de autoexplotación, aumentará.*
+> *"Es evidente que con el incremento de producción obtenido por un trabajo arduo, la valoración subjetiva del significado que para el consumo tiene cada nuevo rublo ganado decrece; pero la fatiga de trabajar para ganarlo, que requerirá una cantidad cada vez mayor de autoexplotación, aumentará."*
 
 
 ## Contradicción campo-ciudad
