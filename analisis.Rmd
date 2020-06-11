@@ -12,12 +12,13 @@ Para este analisis se bajaron los datos las entidades rurles definidas por el in
 Primero necesitamos importar las bases previamente descargadas. 
 
 ```{r}
-setwd('/home/benja/u/quinto_año/primer_semestre/rural/presentacion/base_ine')
+setwd('/pobreza_rural/base_ine')
 library(readr)
 arauco <- read_delim("arauco.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
 biobio <- read_delim("biobio.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
 concepcion <- read_delim("concepcion.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
 region_biobio<-rbind(arauco, biobio, concepcion)
+save(region_biobio, file = "region_biobio.rda")
 
 ```
 
