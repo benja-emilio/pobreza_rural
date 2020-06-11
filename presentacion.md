@@ -5,6 +5,7 @@
 # marco teórico
 
 ## Aportes de Chayanov.
+## Cuadernos Políticos, número 5, México D.F., Julio-septiembre de 1975, pp. 15-31.
 
 > *"... para cada uno de los tipos económicos que en parte ya hemos descrito debe crearse un sistema económico que corresponda a sus rasgos peculiares"*
 
@@ -31,20 +32,27 @@ La economía natural es tal en la que el ser es capaz de satisfacer sus necesida
 
 ## Contradicción campo-ciudad
 
-Privatización de la tierra. Relación mercantil de la tierra en desmedro de la propiedad señorial.  
-La clase industrial contra la clase terrateniente en Francia. París vs Orleans
+### Privatización de la tierra. Relación mercantil de la tierra en desmedro de la propiedad señorial.  
+Para que la propiedad burguesa pudira tener un sustento de poder mayor y mas extensivo dentro de la superestructura feudal, 
+esta tenia que tener una valoración mercantil. Esta relación de propiedad prevalecio mayormente en ciudades libres, donde los
+mercaderes tenian porder politico, ademas del naturalmente economico. Casos en el mediterraneo son ejemplerificantes, como 
+la ciudad estado de Venecia. 
+
+### La clase industrial contra la clase terrateniente en Francia. París vs Orleans
 
 ## El capital original.
+## La llamada acumulación originaria. C. Marx. El Capital. Capitulo XXIV. 
 
-Saqueo y conquista de la periferia no capitalista.
-Blanqueamiento cultural y mestizaje.
+### Saqueo y conquista de la periferia no capitalista.
+
+### Blanqueamiento cultural y mestizaje.
 
 ## Unidades productivas generadoras de excedente no proletarias.
 
 **Falta de relaciones salariales**
 
 > Trabajo campesino
->> Proyecto de reforma agraria y campesinización el bajo pueblo incompleto por el golpe cívico-militar
+>> Proyecto de reforma agraria y campesinización del bajo pueblo incompleto por el golpe cívico-militar.
 
 > Trabajo de comunidades indígenas
 >> Cooptación y/o Marginalización política de los pueblo indígenas con los gobiernos de la concertación. A través de la CONADI, el uso indiscriminado de la ley "antiterrorista" y múltiples casos de montaje policial.
@@ -54,6 +62,9 @@ Blanqueamiento cultural y mestizaje.
 >>* Peonaje: Era una proto-esclavitud, una relación social de producción en que vivía un grupo mayoritario masculino del pueblo mestizo en la colonia y parte de la república. Se trata de una relación en que se ofrece fuerza de trabajo en periodos de alta producción en las haciendas, a cambio de una estancia con alimentación. Como también el uso de trabajo forzados a la población penal. En especial con el "vagabundaje".     
 >>* Inquilinaje: proyecto de relación patronal entre la oligarquía terrateniente y un conjunto de pueblo sometido. Se basa en la seda de una parcela o -chacra-, de grandes concentraciones en haciendas donde el fruto de su trabajo es para la subsistencia y cede parte del excedente con el patrón. Principalmente fue utilizado como proyecto de familia para el pueblo mestizo. Ya que la familia podría ver obligada ser comprendida como una sola unidad productiva para la clase patronal.     
 >>* Rancherías: Proyecto de ocupación de la periferia de las ciudades, otorgados principalmente por el cabildo o municipio a las madres solteras del bajo pueblo. Compromiso cristiano-civilizatorio con el pueblo mestizo.
+
+## Control sobre los medios de producción. La gran concentración hacendal en el agro Chileno. 
+
 
 # Presentación de caso -ejemplo- Biobío.
 
