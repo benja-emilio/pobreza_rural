@@ -32,13 +32,18 @@ La economía natural es tal en la que el ser es capaz de satisfacer sus necesida
 
 ## Contradicción campo-ciudad
 
-### Privatización de la tierra. Relación mercantil de la tierra en desmedro de la propiedad señorial.  
-Para que la propiedad burguesa pudira tener un sustento de poder mayor y mas extensivo dentro de la superestructura feudal, 
-esta tenia que tener una valoración mercantil. Esta relación de propiedad prevalecio mayormente en ciudades libres, donde los
-mercaderes tenian porder politico, ademas del naturalmente economico. Casos en el mediterraneo son ejemplerificantes, como 
-la ciudad estado de Venecia. 
+### Privatización de la tierra. Relación mercantil de la tierra en desmedro de la propiedad señorial.
+Para que la propiedad burguesa pudiera tener un sustento de poder mayor y más extensivo dentro de la superestructura feudal, esta tenía que tener una valoración mercantil. Esta relación de propiedad prevalece mayormente en ciudades libres, donde los mercaderes tenían poder politico, ademas del naturalmente económico. Casos en el mediterráneo son ejemplificantes, como la ciudad estado de Venecia.
 
 ### La clase industrial contra la clase terrateniente en Francia. París vs Orleans
+
+Dentro de la lucha del poder que se vivió luego de la revolución burguesa en francia en 1789, tuvo lugar para que el derecho de propiedad mercantil fuera extenso y de pleno derecho en toda la soberanía del pueblo francés. Claramente que para tener tal grado de respeto de la propiedad  mercantil se debía primero y principalmente detener a toda costa la concentración de la tierra por el mero hecho de pertenecer a tal casa de noble u otro. 
+
+Además, la clase capitalista parisina debía liberar toda es fuerza de trabajo “ociosa” que vive bajo la relación de servidumbre señorial. Unir fuerzas con la clase campesina, principales beneficiarios cuando se reparten las tierras de cultivo, es una estrategia lógica en la conquista del poder. Además, permite crear una relación de dependencia entre el intercambio de productores políticamente organizados para ser reaccionarios en el mundo rural, y otra clase compradora en la ciudad, que dirige la estructura política, es decir los mercaderes urbanos, que viven del mercado con el resto de los ciudadano libres.
+
+Para que esta teoría se traduzca a la práctica se necesitaba entonces desarticular a la clase destronada. Es decir, defender la exitosa revolución sobre todos los costos. Tarea histórica que le costó a Robespierre y a parte considerable del pueblo francés la muerte. Tanto para un bando como al otro. Sin embargo, la nobleza despojada no tardó en volver el tablero de las relaciones mercantil como la clase terrateniente. Es decir, a quienes por derecho mercantil se les respetó un carácter monopólico de la tierra.           
+
+
 
 ## El capital original.
 ## La llamada acumulación originaria. C. Marx. El Capital. Capitulo XXIV. 
