@@ -12,15 +12,13 @@
 
 La economía capitalista se caracteriza por el aumento gradual, cuantitativamente observable del excedente. Este se obtiene de la transformación D - M - D*. Donde el capital circulante vuelve aumentado. Es decir, tiene un plusvalor cuando tal mercancía es ofertada en el mercado. Tal fenómeno no es extensivo al resto de la formas de producción que se tiene registro en la historia. Como tampoco puede ser comprendida como única y exclusiva del tiempo presente.   
 
-> *para entender la vida económica en la sociedad capitalista es la
+> *"Para entender la vida económica en la sociedad capitalista es la
 siguiente fórmula para calcular la remunerabilidad económica: se considera
 remunerativa una empresa si su ingreso global, IG, después de deducido el capital
 circulante adelantado (o sea el gasto material anual, GM, y los gastos en los salarios,
 GC) arroja una suma, S, tan grande o mayor que todo el capital (constante y circulante),
 C, de la empresa a un interés calculado según la tasa predominante en ese país en ese
-momento (a)
-
-I G — (G + GC = C) a/100*
+momento (a) I G — (G + GC = C) a/100"*
 
 La economía natural es tal en la que el ser es capaz de satisfacer sus necesidades con una mercancia in naturalis de su producción. Es decir, que su fuerza de trabajo se ve dirigida a la obtención de una mercancía con valor de uso sobre el de cambio. La obtención de mercancías para el intercambio, nos dirá Chayanov, será un excedente el cual esté fuera de las necesidades de sus productores en unidades indivisibles de su producción.   
 
