@@ -5,6 +5,9 @@ date: "07-06-2020"
 output: html_document
 ---
 
+![imagen](unnamed.jpg)
+
+
 # [Analisis de base de datos del INE.](https://www.arcgis.com/apps/webappviewer/index.html?id=bc3cfbd4feec49699c11e813ae9a629f)
 
 Para este analisis se bajaron los datos las entidades rurles definidas por el instituto nacional de estadistica para la aplicación del censo 2017. 
@@ -12,7 +15,7 @@ Para este analisis se bajaron los datos las entidades rurles definidas por el in
 Primero necesitamos importar las bases previamente descargadas. 
 
 ```{r}
-setwd('/pobreza_rural/base_ine')
+setwd("C:/Users/benja/OneDrive/Documentos/GitHub/pobreza_rural/docs/base_ine")
 library(readr)
 arauco <- read_delim("arauco.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
 biobio <- read_delim("biobio.csv", ";", escape_double = FALSE, comment = "#", trim_ws = TRUE)
